@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NAVBAR STYLING */
+
+.navbar {
+    background-color: grey;
+    padding: 20px;
+    
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+li {
+    list-style-type: none;
+    padding-right: 30px;
+}
