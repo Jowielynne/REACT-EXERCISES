@@ -1,4 +1,3 @@
-import Book from "./components/Book";
 import Header from "./components/Header";
 import './App.css';
 import BookList from "./components/BookList";
