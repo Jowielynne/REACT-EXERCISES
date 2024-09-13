@@ -23,3 +23,9 @@ li {
     list-style-type: none;
     padding-right: 30px;
 }
+
+/* PAGE */
+section {
+    width: 80vw;
+    margin: 0;
+}

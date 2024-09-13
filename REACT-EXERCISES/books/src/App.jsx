@@ -2,6 +2,7 @@ import Header from "./components/Header";
 import './App.css';
 import BookList from "./components/BookList";
 import { useState } from "react";
+import Layout from "./components/Layout";
 
 function App() {
 
@@ -20,7 +21,11 @@ function App() {
   return (
     <>
       <Header />
-      <BookList />
+
+      <Layout>
+        <BookList />
+      </Layout>
+
 
       <button onClick={counterHandler}>Click Marc</button>
 
