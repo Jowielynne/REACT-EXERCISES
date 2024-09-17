@@ -1,20 +1,14 @@
-import Sidebar from "./components/Sidebar"
-import './App.css'
-import Orders from "./components/Orders"
-import Buttons from "./components/Buttons"
-
-
+import "./App.css";
+import OrderList from "./components/OrderList";
+import Sidebar from "./components/Sidebar";
 
 function App() {
-
   return (
     <>
-    <AiFillAlert />
       <Sidebar />
-      <Orders />
-      <Buttons />
+      <OrderList />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
