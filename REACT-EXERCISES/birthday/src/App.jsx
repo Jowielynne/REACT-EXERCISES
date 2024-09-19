@@ -1,9 +1,11 @@
-import './App.css'
+import "./App.css"
+import BirthdayList from "./components/BirthdayList"
 
 function App() {
+
   return (
     <>
-
+      <BirthdayList />
     </>
   )
 }
