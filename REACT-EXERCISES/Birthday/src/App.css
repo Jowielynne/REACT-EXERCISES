@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 15vh;
+  background-color: rgb(255, 218, 249);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font-size: 25px;
+  font-weight: 600;
+  padding: 20px 0px;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+p {
+  color: rgb(113, 113, 113);
+  font-size: 14px;
+}
+
+.birthday__list {
+  background-color: white;
+  padding: 0px 20px 20px 20px;
+    width: 30vw;
+}
+
+.birthday__container {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 20px;  
+}
+
+
+img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 100%;
+  margin-right: 20px;
+}
+
+button {
+  background-color: rgb(254, 81, 254);
+  color: white;
+  border: none;
+  padding: 5px;
+  width: 100%;
+}
