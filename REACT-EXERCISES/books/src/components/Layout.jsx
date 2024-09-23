@@ -1,4 +1,4 @@
-const Layout = () => {
+const Layout = ({children}) => {
     return ( 
         <>
         <section className="container">
