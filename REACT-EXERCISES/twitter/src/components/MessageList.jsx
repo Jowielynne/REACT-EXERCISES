@@ -1,13 +1,11 @@
 import Message from "./Message";
 
-const MessageList = ({ messages }) => {
-    return (
+const MessageList = ({name, message}) => {
+    return ( 
         <>
-            {messages.map((msg, index) => (
-                <Message key={index} name={msg.name} message={msg.message} />
-            ))}
+        <Message name={name} message={message}/>
         </>
-    );
-};
-
+     );
+}
+ 
 export default MessageList;
