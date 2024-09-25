@@ -3,7 +3,11 @@ import Message from "./Message";
 const MessageList = ({name, message}) => {
     return ( 
         <>
-        <Message name={name} message={message}/>
+
+        {message.map((m) =>(
+     <Message name={name} message={m}/>
+        ))}
+       
         </>
      );
 }

@@ -19,6 +19,13 @@ button {
     margin-left: 6px;
 }
 
+.container {
+    background-color: azure;
+    margin: 15px 0px;
+    width: 20vw;
+    border-radius: ;
+}
+
 h2 {
     letter-spacing: 2px;
     font-size: 18px;
