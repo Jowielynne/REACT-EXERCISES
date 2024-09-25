@@ -13,7 +13,7 @@ const CreateMessage = ({textInput, setTextInput, message, setMessage}) => {
 
   return ( 
     <form action=''>
-      <textarea value={textInput} cols="50" rows="5" onChange={userInputHandler}></textarea>
+      <textarea placeholder="Add a message." value={textInput} cols="50" rows="5" onChange={userInputHandler}></textarea>
       <button onClick={submitMessageHandler}>Toevoegen</button>
     </form>
   );
