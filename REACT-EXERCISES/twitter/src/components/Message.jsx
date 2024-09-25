@@ -2,7 +2,7 @@ const Message = ({ name, message }) => {
     return (
         <>
         <div className="container"> 
-            <h2>{name}</h2>
+            <h2>@{name}</h2>
             <p>{message}</p>
         </div>
         </>
