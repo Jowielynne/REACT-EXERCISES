@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+button {
+    width: 6vw;
+    margin-left: 6px;
+}
+
+.check {
+    background-color: rgb(61, 255, 47);
+    color: white;
+    border: none;
+    padding: 5px;
+    width: 30px;
+}
+
+.delete {
+    background-color: rgb(24, 104, 225);
+    color: white;
+    border: none;
+    padding: 5px;
+    width: 30px;
+}
+
+.delete:hover {
+    background-color: rgb(75, 139, 234);
+}
+
+.check:hover {
+    background-color: rgb(114, 252, 104);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.126);
+    margin: 15px 0px 15px 10px;
+    padding: 10px;
+    width: 18vw;
+}
+
+p {
+    margin-left: 5px;
+}

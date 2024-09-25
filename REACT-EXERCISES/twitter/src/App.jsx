@@ -10,13 +10,13 @@ function App() {
 
   return (
     <>
-     <CreateMessage
-       textInput={textInput}
-       setTextInput={setTextInput}
-       message={message}
-       setMessage={setMessage}
-     />
-     <MessageList name={name} message={message}/>
+      <CreateMessage
+        textInput={textInput}
+        setTextInput={setTextInput}
+        message={message}
+        setMessage={setMessage}
+      />
+      <MessageList name={name} message={message} />
     </>
   )
 }
