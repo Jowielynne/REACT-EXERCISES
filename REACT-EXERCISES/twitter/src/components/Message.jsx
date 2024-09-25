@@ -1,10 +1,12 @@
 const Message = ({ name, message }) => {
     return (
         <>
-        <div className="container"> 
-            <h2>{name}</h2>
-            <p>{message}</p>
-        </div>
+            <div className="container">
+                <h2>@{name}</h2>
+                <div className="text">
+                    <p>{message}</p>
+                </div>
+            </div>
         </>
     );
 };

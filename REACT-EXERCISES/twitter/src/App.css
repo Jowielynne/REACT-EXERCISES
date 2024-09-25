@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 form {
@@ -20,23 +20,21 @@ button {
 }
 
 .container {
-    background-color: azure;
-    margin: 15px 0px;
-    width: 20vw;
-    border-radius: ;
+    background-color: rgb(225, 236, 255);
+    margin: 15px 0px 15px 10px;
+    width: 18vw;
+    border-radius: 15px 15px 15px 0px;
 }
 
 h2 {
     letter-spacing: 2px;
-    font-size: 18px;
-    margin-left: 10px;
+    font-size: 14px;
     padding: 5px 5px 5px 15px;
     width: 18vw;
-    background-color: rgb(201, 221, 255);
+    background-color: rgba(255, 255, 255, 0.421);
     border-radius: 15px 15px 0px 0px;
 }
-
 p {
-    margin-left: 25px;
-    padding: 10px 0px;
+    font-size: 12px;
+    padding: 10px 15px;
 }
