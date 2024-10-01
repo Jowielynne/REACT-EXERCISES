@@ -6,7 +6,7 @@ import MessageList from './components/MessageList';
 function App() {
   const [textInput, setTextInput] = useState('');
   const [message, setMessage] = useState([]);
-  let name = "Test Subject";
+  let name = "User ";
 
   return (
     <>
