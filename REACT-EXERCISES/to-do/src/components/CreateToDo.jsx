@@ -16,19 +16,14 @@ const CreateToDo = ({ textInput, setTextInput, item, setItem }) => {
       className="my-11 flex items-center flex-row justify-center"
     >
       <input
-        className="px-2 pr-24 h-12"
+        className="px-2 pr-24 h-14 font-semibold"
         placeholder="What to do?"
         value={textInput}
         cols="50"
         rows="5"
         onChange={userInputHandler}
       ></input>
-      <button
-        className="bg-blue-400 font-thin text-white text-5xl px-2"
-        onClick={submitMessageHandler}
-      >
-        +
-      </button>
+      <button className="bg-blue-400 font-thin text-white text-5xl pb-2 px-3" onClick={submitMessageHandler}>+</button>
     </form>
   );
 };
