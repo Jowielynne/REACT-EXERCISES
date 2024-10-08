@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(228, 243, 255);
 }
 
 .center__text {
@@ -23,16 +24,19 @@ h1 {
 
 h2 {
     font-size: 19px;
+    font-weight: 600;
 }
 
 h3 {
     font-size: 15px;
+    font-weight: 200;
+    color: rgb(90, 125, 154);
 }
 
 /* NAVBAR STYLING */
 
 .navbar {
-    background-color: grey;
+    background-color: rgb(56, 73, 87);
     padding: 20px;
     width: 100%;
 
@@ -57,12 +61,12 @@ a {
 }
 
 a:hover {
-    color: rgb(217, 217, 217);
+    color: rgb(11, 20, 28);
 }
 
 /* PAGE */
 main {
-    margin: 5vh;
+    margin: 6vh;
 }
 
 .container {
@@ -83,18 +87,19 @@ main {
 
 input {
     width: 30vw;
-    padding: 10px;
-    border-radius: 20px;
-    border: 1px solid rgb(0, 0, 0);
+    padding: 15px 30px;
+    border-radius: 50px;
+    border: none;
 }
 
 article {
     text-align: center;
     margin: 20px 20px;
-    padding: 10px;
-    border: 1px solid rgb(0, 0, 0);
+    padding: 20px 0px;
+    width: 20vw;
+    background-color: white;
 }
 
 img {
-    height: 300px;
+    height: 220px;
 }
