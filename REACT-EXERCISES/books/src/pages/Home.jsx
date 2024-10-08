@@ -6,11 +6,12 @@ function Home() {
 
     return (
         <>
-            <section>
+            <main>
+                <h1>Bookstore</h1>
                 <Layout>
                     <BookList />
                 </Layout>
-            </section>
+            </main>
         </>
     )
 };
