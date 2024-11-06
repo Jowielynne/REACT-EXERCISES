@@ -1,7 +1,9 @@
 const NoPage = () => {
-    return ( 
-        <h1>404 - Page not Found.</h1>
-     );
+    return (
+        <div className="center__text">
+            <h1> :⟨<br/>404 - Page not Found.</h1>
+        </div>
+    );
 }
- 
+
 export default NoPage;
